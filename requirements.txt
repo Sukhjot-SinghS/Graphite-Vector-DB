@@ -1,0 +1,11 @@
+# Web API
+fastapi
+uvicorn
+
+# AI & Data
+sentence-transformers
+datasets
+numpy
+
+# C++ Integration
+pybind11

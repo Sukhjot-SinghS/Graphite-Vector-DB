@@ -1,0 +1,54 @@
+# Binary data files (too large for git)
+*.bin
+vectors.bin
+pq_data.bin
+vamana_index.bin
+
+# Compiled binaries
+builder
+graphite_core.*.so
+*.o
+*.out
+
+# Build directories
+build/
+cmake-build-*/
+
+# Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+.pytest_cache/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Text mapping (can be regenerated)
+id_mapping.txt
+
+# Logs
+*.log
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Keep these files (explicitly allowed)
+!README.md
+!config.h
+!*.cpp
+!*.py
+!*.h
