@@ -60,7 +60,7 @@ Instead of scanning billions of vectors, navigate a **proximity graph**:
     vs O(N) scans
 ```
 
-**Key Innovation:** Robust pruning using geometric distance ratios maintains graph quality while reducing edges.
+>**Key Innovation:** Robust pruning using geometric distance ratios maintains graph quality while reducing edges.
 **Impact:** Achieves a **~10x speedup** over NumPy's highly-optimized C-backend, dropping average query latency to just **~1.2ms** while completely bypassing the Memory Wall! ⚡
 ---
 
